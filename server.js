@@ -31,7 +31,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://statuary-eyes.000webhostapp.com",
+    origin: "https://chat-app-xmkb.onrender.com",
     // credentials: true,
   },
 });
